@@ -1,0 +1,24 @@
+body{
+        background-image: url('/Aharon-Strizower/static/20191010_115154.jpg');
+        background-size: cover;
+}
+div {
+    padding: 10px;
+    border: 5px black;
+    margin: 0;
+    color: whitesmoke;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 5vw;
+}
+h2 {
+    font-size: 3vw;
+}
+a {
+    color: white;
+}
+label {
+    font-size: 1.5vw;
+}
