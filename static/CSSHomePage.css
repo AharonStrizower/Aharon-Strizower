@@ -1,5 +1,5 @@
 body{
-        background-image: url('/Aharon-Strizower/static/20191010_115154.jpg');
+        background-image: url('/static/20191010_115154.jpg');
         background-size: cover;
 }
 div {
@@ -7,6 +7,7 @@ div {
     border: 5px black;
     margin: 0;
     color: whitesmoke;
+    font-size: 1.5vw
 }
 h1 {
     text-align: center;
