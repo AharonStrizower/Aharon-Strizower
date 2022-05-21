@@ -2,16 +2,29 @@
 <html>
     <head>
         <title>Home page bgu web course Assignment1 Georgia Backpackers Traveling</title>
-        <link rel="stylesheet" href="/static/CSSHomePage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/CSSHomePage.css">
+        <script src="../static/JavaScript.js"></script>
     </head>
-    <body style="text-align: center;">
-        <div>
+    <body id="home" style="text-align: center;">
+        <div class="grid-container1">
             <h1>Georgia Backpackers Traveling</h1><br><br>
             <P style="font-size: 2vw; color: white;">
                 you can enjoy this beautiful picture for a great day</P><br>
                 <p>Number of people connected to website (35)
                     <meter  min="0" max="100" value="35"></meter></p><br><br>
-            <a href="ContactPage.html" target="_blank">Contact Us</a>
+                    <a href="ContactPage.html" target="_blank">Contact Us</a>
+                    <nav>
+                        <ul class="links">
+                           <a class="current" data-active="home" href="HomePage.html">Home</a>
+                           <a href="#" onclick="notWorking()">About</a>
+                           <a href="#" onclick="notWorking()">Services</a>
+                           <a data-active="contact" href="ContactPage.html">Contact us</a>
+                        </ul>
+                     </nav>
         </div>
+        <div id="mouse_body">
+            <div id="mouse_wheel"></div>
+          </div>
     </body>
 </html>

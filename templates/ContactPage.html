@@ -1,31 +1,43 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact page bgu web course Assignment1 Aharon Strizower</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/CSSHomePage.css">
-    </head>
-    <body>
-        <div>
-            <h1>Georgia Backpackers Traveling</h1><br><br>
-            <form>
-                <h2>Contact Information</h2>
-                <label for="FirstName">First Name:</label>
-                <input type="text" id="FirstName">
-                <label for="LastName">Last Name:</label>
-                <input type="text" id="LastName"><br><br>
-                <label>Phone Number:</label>
-                <input type="tel"><br><br>
-                <label>Email:</label>
-                <input type="email"><br><br>
-                <label for="Details">How can we help you?</label><br>
-                <textarea id="Details" cols="50" rows="5" ></textarea><br><br>
-                <label>i agree to receive emailes</label>
-                <input type="checkbox"><br><br>
-                <input type="submit">
-            </form><br>
-                <a href="HomePage.html" target="_blank">return to home page</a>
-            </P>
-        </div>
-    </body>
-</html>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Contact page bgu web course Assignment1 Aharon Strizower</title>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../static/CSSHomePage.css">
+            <script src="../static/JavaScript.js"></script>
+        </head>
+        <body id="contact">
+            <div class="grid-container2">
+                <div class="head"><h1>Georgia Backpackers Traveling</h1></div>
+                <form class="items">
+                    <h2>Contact Information</h2>
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" id="FirstName">
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" id="LastName"><br>
+                    <label>Phone Number:</label>
+                    <input type="tel">
+                    <label>Email:</label>
+                    <input type="email"><br>
+                    <label for="Details">How can we help you?</label><br>
+                    <textarea id="Details" cols="50" rows="5" ></textarea><br>
+                    <label>i agree to receive emailes</label>
+                    <input type="checkbox"><br>
+                    <input type="submit"><br>
+                </form>
+                <div class="pass"><a href="HomePage.html" target="_blank">return to home page</a>
+                    <nav>
+                        <ul class="links">
+                            <a data-active="home" href="HomePage.html">Home</a>
+                           <a href="#" onclick="notWorking()">About</a>
+                           <a href="#" onclick="notWorking()">Services</a>
+                           <a class="current" data-active="contact" href="ContactPage.html">Contact us</a>
+                        </ul>
+                     </nav>
+                </div>
+            </div>
+            
+        </body>
+    </html>
